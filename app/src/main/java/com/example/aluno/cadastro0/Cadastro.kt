@@ -38,15 +38,15 @@ class Cadastro : AppCompatActivity() {
                     //textViewNome.text.toString(),
                    // textViewEmail.text.toString())
 
-            val btLimpar: Button = findViewById(R.id.btLimpar)
+            //val btLimpar: Button = findViewById(R.id.btLimpar)
 
-            btLimpar.setOnClickListener(View.OnClickListener {
-                val epSenha = epSenha.text.clear()
-                val etUserName = etUserName.text.clear()
-                val etNome = etNome.text.clear()
-                val etEmail = etEmail.text.clear()
-
-            })
+//            btLimpar.setOnClickListener(View.OnClickListener {
+//                val epSenha = epSenha.text.clear()
+//                val etUserName = etUserName.text.clear()
+//                val etNome = etNome.text.clear()
+//                val etEmail = etEmail.text.clear()
+//
+//            })
 
         lateinit var edId: TextView
         lateinit var edNome: TextView
