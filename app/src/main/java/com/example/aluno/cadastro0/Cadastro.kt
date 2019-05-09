@@ -62,27 +62,27 @@ class Cadastro : AppCompatActivity() {
             background = ColorDrawable(Color.parseColor("#F8F2F2"))
 
             edId = editText {
-                hint = "Id Hint"
+                hint = "Apelido"
                 textSize = 24f
-                textColor = Color.GREEN
+                textColor = Color.BLACK
                 //CENTER can be INHERIT GRAVITY TEXT_START TEXT_END VIEW_START VIEW_END
                 textAlignment = View.TEXT_ALIGNMENT_CENTER
             }
             edNome = editText {
-                hint = "Nome Hint"
+                hint = "Nome"
                 textSize = 24f
                 textAlignment = View.TEXT_ALIGNMENT_GRAVITY
             }
             edEmail = editText {
-                hint = "email"
+                hint = "Email"
                 textSize = 24f
             }
             edPass = editText {
-                hint = "Pass"
+                hint = "Senha"
                 textSize = 24f
             }
             edCreated = editText {
-                hint = "Email Hint"
+                hint = "CPF"
                 textSize = 24f
             }
             var button: Button = button("Incluir") {
